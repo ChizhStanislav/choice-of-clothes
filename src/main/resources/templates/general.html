@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Clothing selection</title>
+</head>
+<body>
+<h1>Enter the city name</h1>
+<div>
+    <form th:action="@{/}" th:method="post">
+        <input type="text" name="city">
+        <input type="submit" value="Select">
+    </form>
+</div>
+<div th:if="${clothes}">
+    <h2>Clothes:</h2>
+    <div th:each="clothes : ${clothes}">
+        <span th:text="${clothes.name}"></span>
+    </div>
+    <div th:each="err : ${#fields.errors()}">
+        <span th:text="err.Runtime"></span>
+    </div>
+</div>
+</body>
+</html>

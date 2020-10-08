@@ -1,0 +1,13 @@
+[http-nio-8081-exec-1] ERROR com.example.choiceofclothes.util.RequestTemperature  - No such host is known (api.openwseathermap.org)
+[http-nio-8081-exec-1] INFO  com.example.choiceofclothes.util.RequestTemperature  - City Minskddd not found
+[http-nio-8081-exec-1] INFO  com.example.choiceofclothes.util.RequestTemperature  - City Minskddd not found
+[http-nio-8081-exec-1] INFO  com.example.choiceofclothes.util.RequestTemperature  - City Minskddd not found
+[http-nio-8081-exec-1] INFO  com.example.choiceofclothes.util.RequestTemperature  - City Minskddd not found
+[http-nio-8081-exec-4] INFO  com.example.choiceofclothes.util.RequestTemperature  - City sdsd not found
+[http-nio-8081-exec-6] INFO  com.example.choiceofclothes.util.RequestTemperature  - City 1231312 not found
+[http-nio-8081-exec-1] ERROR com.example.choiceofclothes.util.RequestTemperature  - No such host is known (api.aopenweathermap.org)
+[http-nio-8081-exec-2] ERROR com.example.choiceofclothes.util.RequestTemperature  - No such host is known (api.aopenweathermap.org)
+[http-nio-8081-exec-3] ERROR com.example.choiceofclothes.util.RequestTemperature  - api.aopenweathermap.org
+[http-nio-8081-exec-6] ERROR com.example.choiceofclothes.util.RequestTemperature  - No such host is known (api.aopenweathermap.org)
+[http-nio-8081-exec-7] ERROR com.example.choiceofclothes.util.RequestTemperature  - api.aopenweathermap.org
+[http-nio-8081-exec-6] INFO  com.example.choiceofclothes.util.RequestTemperature  - City фыв not found

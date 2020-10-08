@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Clothes</title>
+</head>
+<body>
+<h1>ADD CLOTHES</h1>
+
+<form th:action="@{/clothes}" th:method="post">
+    <input type="text" name="name">
+    <select name="temperatureName" required>
+        <option th:each="value : ${temperature}"
+                th:text="${value.name()} +'[' + ${value.getMinimumTemperature()} + ','+ ${value.getMaximumTemperature() + ']'}"
+                th:value="${value.name()}">
+        </option>
+    </select>
+    <input type="submit" value="Save">
+</form>
+
+</body>
+</html>
