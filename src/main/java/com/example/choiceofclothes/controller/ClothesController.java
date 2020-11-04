@@ -3,8 +3,9 @@ package com.example.choiceofclothes.controller;
 import com.example.choiceofclothes.dto.ClothesDto;
 import com.example.choiceofclothes.service.ClothesService;
 import lombok.RequiredArgsConstructor;
-
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
@@ -14,8 +15,8 @@ public class ClothesController {
     private final ClothesService clothesService;
 
     @GetMapping
-    public ClothesDto getClothes() {
-        return clothesService.find();
+    public List<ClothesDto> getClothes() {
+        return clothesService.findAll();
     }
 
 }
